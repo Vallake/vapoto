@@ -1,10 +1,3 @@
-.titre-principal {
-    
-    color:white;
-    margin-left: 6.5rem;
-    
-    
-}
 body ,div,p,h1,h4{
     margin: 0;
 }
@@ -15,21 +8,25 @@ h5 {
     word-spacing:1.5rem;
 }
 
-
-
-.logo-haut {
-    display: flex;
-    padding-left: 1rem;
-    align-items: center;
-}
-
-h2 , 
+/* h2, 
 h3 {
     text-decoration: underline;
     text-decoration-color:rgba(159, 47, 255, 1); 
     font-size:2rem
 
-}       
+}        */
+
+.snc-titre__text {
+    text-decoration: underline;
+    text-decoration-color:rgba(159, 47, 255, 1); 
+    font-size:2rem;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: blue;
+    margin: left
+} 
 
 header {
     display: flex;
@@ -41,7 +38,39 @@ header {
 
 }
 
+footer {
+    background: rgba(61, 61, 61, 1);
+}
 
+nav a {
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #ffffff; /* couleur du texte */
+    height: 2.2 rem; /* hauteur */
+    line-height: 2rem;  /* interligne */
+    padding: 0 0.6rem; /* marges intérieur */
+    font-family: sans-serif; /* police d'écriture */
+    font-size: 0.9rem; /* taille du texte */
+}
+
+nav a:hover{
+    background:linear-gradient(90deg, #0BB1D3 0%, #5173E8 45.54%, #9F2FFF 100%);
+    padding: 1rem;
+}
+
+.nav__link {
+    margin-right: 1.5rem;
+}
+
+.titre-principal {
+    color:white;
+    margin-left: 6.5rem;
+}
+
+.logo-haut {
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+}
 
 .snc-titre {
     margin-right: 1rem;
@@ -51,20 +80,14 @@ header {
 }       
     /*texte avec les 3 photos*/
 
-h4 {
-    color: blue;
-    margin: left
-} 
+
 
 .box{
     display: flex;
-    justify-content: flex-start
-
+    justify-content: space-around;
 }
 
-footer {
-    background: rgba(61, 61, 61, 1);
-}
+
  
 
  .image_bas{
@@ -72,31 +95,20 @@ footer {
  }
 
 .background_video {
-    background:linear-gradient(90deg, #0BB1D3 0%, #5173E8 45.54%, #9F2FFF 100%);
-    
-    margin :1rem auto 2 auto;
-    
+    background: linear-gradient(90deg, #0BB1D3 0%, #5173E8 45.54%, #9F2FFF 100%);
+    margin: 1rem auto 2 auto;
+    padding: 1rem;
 }
 
-.iframe{
+.iframe {
     margin: auto;
     width: 100%
 }
 
 .texte{
-    text-align: justify;
+    margin-bottom: 1rem;
 }
 
-nav   a{
-    
-    text-decoration: none; /* pas d'héritage avec effet souligné */
-    color: #ffffff; /* couleur du texte */
-    height: 2.2 rem; /* hauteur */
-    line-height: 2rem;  /* interligne */
-    padding: 0 0.6rem; /* marges intérieur */
-    font-family: sans-serif; /* police d'écriture */
-    font-size: 0.9rem; /* taille du texte */
-    }
-    nav   a:hover{
-    background:linear-gradient(90deg, #0BB1D3 0%, #5173E8 45.54%, #9F2FFF 100%);
-    }
+.wrapper {
+    margin: 0 1rem;
+}
