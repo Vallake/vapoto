@@ -1,6 +1,6 @@
 body ,div,p,h1,h4{
     margin: 0;
-    padding: 0.5rem;
+    font-family: "Raleway", sans-serif;
 }
 
 h5 {
@@ -64,7 +64,7 @@ nav a:hover{
 
 .titre-principal {
     color:white;
-    margin-left: 6.5rem;
+    margin-left: 2rem;
 }
 
 .logo-haut {
@@ -75,7 +75,7 @@ nav a:hover{
 
 .snc-titre {
     margin-right: 1rem;
-    color: rgb(158, 23, 23)
+    color: rgb(158, 23, 23);
     text-decoration: underline;
     text-decoration-color:rgba(159, 47, 255, 1);        
 }       
@@ -105,12 +105,7 @@ nav a:hover{
     margin: auto;
     width: 100%
 }
-
-.texte{
-    font-family: "Raleway", sans-serif;
-    margin-bottom: 1rem;
-    
-}
+ 
 
 .wrapper {
     margin: 0 1rem;
@@ -156,3 +151,10 @@ nav a:hover{
       tfoot td {
         font-weight: bold;
       }
+.texte{
+    margin: 1rem 0;
+}
+
+.pre-photo{
+    max-width: 18.75rem;
+}
